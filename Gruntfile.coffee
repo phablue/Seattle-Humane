@@ -2,15 +2,6 @@ module.exports = (grunt) ->
   grunt.initConfig
     pkg: grunt.file.readJSON("package.json")
 
-    copy:
-      main:
-        expand: true
-        flatten: true
-        cwd: "assets/images"
-        src: ["*.jpg", "*.png"]
-        dest: "assets/dest/images"
-        filter: "isFile"
-
     coffee:
       glob_to_multiple:
         expand: true
@@ -41,6 +32,5 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-coffee"
   grunt.loadNpmTasks "grunt-contrib-sass"
   grunt.loadNpmTasks "grunt-contrib-watch"
-  grunt.loadNpmTasks "grunt-contrib-copy"
 
-  grunt.registerTask "default", ["coffee", "sass", "copy"]
+  grunt.registerTask "default", ["coffee", "sass"]
