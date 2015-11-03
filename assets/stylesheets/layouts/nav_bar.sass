@@ -1,0 +1,134 @@
+.navbar-fixed-top
+  background-color: $white-color
+  border-bottom: 2px solid $theme-color
+  min-height: 100px
+
+#logo
+  padding-left: 20px
+
+  img
+    max-width: 200px
+
+#menu-button
+  background-color: white
+  border: none
+  color: $theme-color
+  font-size: 2.2em
+  padding: 0
+  position: absolute
+  right: 15px
+  top: 30px
+
+  @media only screen and (min-width: 1024px)
+    display: none
+
+  &:focus
+    outline: none
+
+.follow
+  margin-top: 25px
+  text-align: center
+
+  @media only screen and (min-width: 1024px)
+    margin: 20px 20px 0 0
+    float: right
+
+  a
+    background-color: $white-color
+    border: 1.5px solid #DDD
+    border-radius: 50%
+    color: $theme-color
+    font-size: 1.7em
+    padding: 4px 7px
+    margin: 5px
+
+  .fa-usd
+    color: $white-color
+    font-size: 0.5em
+    margin-left: -15px
+    margin-top: 10px
+    position: absolute
+
+.search
+  margin: 15px auto
+  max-width: 80%
+
+  @media only screen and (min-width: 1024px)
+    float: right
+    margin-top: 70px
+    margin-right: -300px
+    width: 300px
+
+  .form-inline
+    .form-control
+      display: inline-block
+      margin: auto
+      width: 85%
+
+    .btn-default
+      float: right
+
+.nav-menu
+  background-color: $white-color
+  border-top: 2px solid $theme-color
+  font-size: 1.1em
+  padding: 15px 10px 5px 10px
+
+  ul
+    font-weight: 500
+    list-style-type: none
+    padding: 0 10px
+
+    @media only screen and (min-width: 1024px)
+      padding: 0
+
+  li
+    padding: 7px 0
+
+  a
+    color: $sub-theme-color
+
+    &:hover
+      cursor: pointer
+      color: $theme-color
+
+  .divider
+    background-color: $divider-color
+    height: 1px
+    margin: 3px 0
+    overflow: hidden
+    padding: 0.5px
+
+@media only screen and (min-width: 1024px)
+  .nav-menu
+    background-color: $main-img-overlap-color
+    padding: 0 10px
+    position: absolute
+    left: 0
+    right: 0
+    top: 120px
+
+    & > ul > li
+      display: inline-block
+      padding: 13px 13px 3px 13px
+
+      & > a
+        color: $white-color
+
+  .collapse
+    display: block
+
+.dropDown-menu
+  border-top: 1px solid $divider-color
+  display: none
+  margin-top: 8px
+  padding: 0 15px
+
+  @media only screen and (min-width: 1024px)
+    background-color: $white-color
+    position: absolute
+    top: 40px
+
+    a
+      display: block
+      padding: 0 15px

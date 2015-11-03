@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700|Roboto:400,500,700,900);
+body {
+  font-family: "Nunito", sans-serif;
+  padding-top: 213px; }
+  @media only screen and (min-width: 1024px) {
+    body {
+      padding-top: 100px; } }
+
+a:hover {
+  text-decoration: none; }
+
+.navbar-fixed-top {
+  background-color: #FFF;
+  border-bottom: 2px solid #EE3524;
+  min-height: 100px; }
+
+#logo {
+  padding-left: 20px; }
+  #logo img {
+    max-width: 200px; }
+
+#menu-button {
+  background-color: white;
+  border: none;
+  color: #EE3524;
+  font-size: 2.2em;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 30px; }
+  @media only screen and (min-width: 1024px) {
+    #menu-button {
+      display: none; } }
+  #menu-button:focus {
+    outline: none; }
+
+.follow {
+  margin-top: 25px;
+  text-align: center; }
+  @media only screen and (min-width: 1024px) {
+    .follow {
+      margin: 20px 20px 0 0;
+      float: right; } }
+  .follow a {
+    background-color: #FFF;
+    border: 1.5px solid #DDD;
+    border-radius: 50%;
+    color: #EE3524;
+    font-size: 1.7em;
+    padding: 4px 7px;
+    margin: 5px; }
+  .follow .fa-usd {
+    color: #FFF;
+    font-size: 0.5em;
+    margin-left: -15px;
+    margin-top: 10px;
+    position: absolute; }
+
+.search {
+  margin: 15px auto;
+  max-width: 80%; }
+  @media only screen and (min-width: 1024px) {
+    .search {
+      float: right;
+      margin-top: 70px;
+      margin-right: -300px;
+      width: 300px; } }
+  .search .form-inline .form-control {
+    display: inline-block;
+    margin: auto;
+    width: 85%; }
+  .search .form-inline .btn-default {
+    float: right; }
+
+.nav-menu {
+  background-color: #FFF;
+  border-top: 2px solid #EE3524;
+  font-size: 1.1em;
+  padding: 15px 10px 5px 10px; }
+  .nav-menu ul {
+    font-weight: 500;
+    list-style-type: none;
+    padding: 0 10px; }
+    @media only screen and (min-width: 1024px) {
+      .nav-menu ul {
+        padding: 0; } }
+  .nav-menu li {
+    padding: 7px 0; }
+  .nav-menu a {
+    color: #02809A; }
+    .nav-menu a:hover {
+      cursor: pointer;
+      color: #EE3524; }
+  .nav-menu .divider {
+    background-color: #D6D6D3;
+    height: 1px;
+    margin: 3px 0;
+    overflow: hidden;
+    padding: 0.5px; }
+
+@media only screen and (min-width: 1024px) {
+  .nav-menu {
+    background-color: rgba(66, 66, 66, 0.5);
+    padding: 0 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px; }
+    .nav-menu > ul > li {
+      display: inline-block;
+      padding: 13px 13px 3px 13px; }
+      .nav-menu > ul > li > a {
+        color: #FFF; }
+
+  .collapse {
+    display: block; } }
+.dropDown-menu {
+  border-top: 1px solid #D6D6D3;
+  display: none;
+  margin-top: 8px;
+  padding: 0 15px; }
+  @media only screen and (min-width: 1024px) {
+    .dropDown-menu {
+      background-color: #FFF;
+      position: absolute;
+      top: 40px; }
+      .dropDown-menu a {
+        display: block;
+        padding: 0 15px; } }
+
+.welcome .btn-default {
+  background-color: #EE3524;
+  border-color: #EE3524;
+  color: #FFF; }
+
+#cover-image {
+  background: url("/assets/images/main-image-sm.png") no-repeat center;
+  background-size: cover;
+  height: 400px; }
+  @media only screen and (min-width: 768px) {
+    #cover-image {
+      background-image: url("/assets/images/main-image-lg.png");
+      height: 750px; } }
+
+.cover-title {
+  background-color: rgba(66, 66, 66, 0.5);
+  margin-top: -170px;
+  padding: 15px;
+  text-shadow: 2px 2px 2px black; }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover-title {
+      margin-top: -170px;
+      margin-left: 10px;
+      max-width: 500px; } }
+  @media only screen and (min-width: 1024px) {
+    .cover-title {
+      margin-top: -170px;
+      margin-left: 10px;
+      max-width: 700px; } }
+  .cover-title h2 {
+    color: #FFF;
+    font-weight: 800;
+    margin: 0; }
+  .cover-title h4 {
+    color: #EEE; }
+    .cover-title h4 strong {
+      color: #EE3524; }
+
+.contents {
+  padding-top: 30px;
+  text-align: center; }
+  .contents h2 {
+    font-weight: 700;
+    padding: 20px 0; }
+
+.contents .donate {
+  padding-bottom: 30px; }
+
+.options, .types {
+  display: inline-block;
+  margin: 20px 7px;
+  max-width: 165px; }
+  @media only screen and (min-width: 768px) {
+    .options, .types {
+      width: 200px; } }
+  .options a, .types a {
+    color: #333; }
+    .options a:hover, .types a:hover {
+      color: #777; }
+
+.contents .volunteer {
+  background-color: #EEE;
+  padding: 30px 0; }
+
+.types {
+  max-width: 350px;
+  padding: 10px; }
+  @media only screen and (min-width: 768px) {
+    .types {
+      width: 400px; } }
+  .types .btn-default {
+    background-color: #333;
+    border-color: #333;
+    color: #FFF; }
+  .types-images, #volunteer-image, #teenclub-image {
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+    height: 180px;
+    width: 180px; }
+
+#volunteer-image {
+  background-image: url("/assets/images/volunteer.png");
+  background-position: center top; }
+
+#teenclub-image {
+  background-image: url("/assets/images/teen-club.png");
+  background-position: left top; }
+
+.capital-campaign {
+  padding: 30px;
+  margin: auto; }
+  .capital-campaign h3 {
+    color: #EE3524; }
+
+#campaign-img {
+  background: url("/assets/images/SH-AnimalPeopleCan-Logo_0.png") no-repeat center;
+  display: inline-block;
+  height: 300px;
+  position: relative;
+  width: 250px; }
+
+.campaign-script {
+  display: inline-block;
+  max-width: 360px;
+  padding-left: 20px;
+  position: relative; }
+  .campaign-script h3 {
+    line-height: 2;
+    margin: 20px auto; }
+  .campaign-script p {
+    line-height: 1.5; }
+
+@media only screen and (min-width: 768px) {
+  .campaign-script {
+    margin-left: 60px; } }
+
+/*# sourceMappingURL=application.css.map */

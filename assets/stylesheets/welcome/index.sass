@@ -1,0 +1,131 @@
+.welcome
+  .btn-default
+    background-color: $theme-color
+    border-color: $theme-color
+    color: $white-color
+
+#cover-image
+  background: url("/assets/images/main-image-sm.png") no-repeat center
+  background-size: cover
+  height: 400px
+
+  @media only screen and (min-width: 768px)
+    background-image: url("/assets/images/main-image-lg.png")
+    height: 750px
+
+.cover-title
+  background-color: $main-img-overlap-color
+  margin-top: -170px
+  padding: 15px
+  text-shadow: $cover-title-shadow
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    margin-top: -170px
+    margin-left: 10px
+    max-width: 500px
+
+  @media only screen and (min-width: 1024px)
+    margin-top: -170px
+    margin-left: 10px
+    max-width: 700px
+  h2
+    color: $white-color
+    font-weight: 800
+    margin: 0
+
+  h4
+    color: $cover-subtitle-color
+
+    strong
+      color: $theme-color
+
+.contents
+  padding-top: 30px
+  text-align: center
+
+  h2
+    font-weight: 700
+    padding: 20px 0
+
+.contents
+  .donate
+    padding-bottom: 30px
+
+.options
+  display: inline-block
+  margin: 20px 7px
+  max-width: 165px
+
+  @media only screen and (min-width: 768px)
+    width: 200px
+
+  a
+    color: $dark-grey-color
+    &:hover
+      color: #777
+
+.contents
+  .volunteer
+    background-color: $cover-subtitle-color
+    padding: 30px 0
+
+.types
+  @extend .options
+  max-width: 350px
+  padding: 10px
+
+  @media only screen and (min-width: 768px)
+    width: 400px
+
+  .btn-default
+    background-color: $dark-grey-color
+    border-color: $dark-grey-color
+    color: $white-color
+
+  &-images
+    background-repeat: no-repeat
+    border-radius: 50%
+    margin: auto
+    height: 180px
+    width: 180px
+
+#volunteer-image
+  @extend .types-images
+  background-image: url("/assets/images/volunteer.png")
+  background-position: center top
+
+#teenclub-image
+  @extend .types-images
+  background-image: url("/assets/images/teen-club.png")
+  background-position: left top
+
+.capital-campaign
+  padding: 30px
+  margin: auto
+
+  h3
+    color: $theme-color
+
+#campaign-img
+  background: url("/assets/images/SH-AnimalPeopleCan-Logo_0.png") no-repeat center
+  display: inline-block
+  height: 300px
+  position: relative
+  width: 250px
+
+.campaign-script
+  display: inline-block
+  max-width: 360px
+  padding-left: 20px
+  position: relative
+
+  h3
+    line-height: 2
+    margin: 20px auto
+
+  p
+    line-height: 1.5
+
+@media only screen and (min-width: 768px)
+  .campaign-script
+    margin-left: 60px

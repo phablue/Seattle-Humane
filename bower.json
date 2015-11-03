@@ -1,0 +1,16 @@
+{
+  "name": "seattle_humane",
+  "description": "Seattle Himane Main Page",
+  "main": "index.js",
+  "authors": [
+    "Hana Park"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "font-awesome": "fontawesome#~4.4.0",
+    "bootstrap": "~3.3.5"
+  }
+}
