@@ -19,9 +19,11 @@ module.exports = (grunt) ->
       coffee:
         files: "assets/scripts/*.coffee"
         tasks: "coffee"
+
       css:
         files: "assets/stylesheets/**/*.sass"
         tasks: "sass"
+
       livereload:
         options:
           livereload: true
